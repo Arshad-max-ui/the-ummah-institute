@@ -13,3 +13,6 @@ The six campus images are intentionally kept in the same folder as `index.html`,
 - `1000257158.png` — Complete Campus Aerial View
 
 If GitHub asks whether to replace existing files, replace `index.html`, `styles.css`, and `script.js` with the versions in this ZIP. Ensure all six PNG images are uploaded too.
+
+
+Logo fix: the institute emblem is now embedded directly as inline SVG in `index.html`, so no separate logo image file is needed. The browser tab icon is embedded too. Keep `index.html` and `styles.css` in the repository root.
