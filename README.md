@@ -1,12 +1,15 @@
 # The Ummah Institute — Website v2
 
-## Upload to GitHub Pages
-1. Extract this ZIP on your computer.
-2. Upload **all files and folders inside** `ummah-institute-v2` to the root of your GitHub repository (not the ZIP itself).
-3. Keep `index.html`, `styles.css`, `script.js`, and the `images` folder together.
-4. In GitHub, open **Settings → Pages** and select your deployment branch and `/ (root)` if not already configured.
+## Upload to GitHub (important)
+Upload **all files from this ZIP together into the repository root** (the main page where `index.html` is located). Do not upload only `index.html`.
 
-## Included campus visuals
-The `images` folder contains six image files used directly by the website: mosque/islamic learning centre, academic campus, digital skills lab, library/research centre, multipurpose hall and aerial campus view. No separate assets folder upload is needed beyond uploading this folder.
+The six campus images are intentionally kept in the same folder as `index.html`, so no `images/` folder or asset manifest is needed. Keep these filenames exactly as they are:
 
-The images are illustrative architectural concepts, not claims that the facilities are already built. The website uses external Google Fonts; if unavailable, it falls back to system fonts.
+- `1000257149.png` — Masjid & Islamic Learning Centre
+- `1000257154.png` — Academic Campus
+- `1000257155.png` — Digital Skills Lab
+- `1000257156.png` — Library & Research Centre
+- `1000257157.png` — Multipurpose Hall
+- `1000257158.png` — Complete Campus Aerial View
+
+If GitHub asks whether to replace existing files, replace `index.html`, `styles.css`, and `script.js` with the versions in this ZIP. Ensure all six PNG images are uploaded too.
