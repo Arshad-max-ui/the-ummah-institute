@@ -1,27 +1,12 @@
-# The Ummah Institute — Website
+# The Ummah Institute — Website v2
 
-A responsive, animated landing website for presenting the proposed vision of The Ummah Institute.
+## Upload to GitHub Pages
+1. Extract this ZIP on your computer.
+2. Upload **all files and folders inside** `ummah-institute-v2` to the root of your GitHub repository (not the ZIP itself).
+3. Keep `index.html`, `styles.css`, `script.js`, and the `images` folder together.
+4. In GitHub, open **Settings → Pages** and select your deployment branch and `/ (root)` if not already configured.
 
-## Files
-- `index.html` — page structure and content
-- `styles.css` — responsive visual design, transitions, animation
-- `script.js` — scroll reveal, progress bar, mobile navigation, subtle parallax
-- `assets/logo.png` — supplied logo image
-- `assets/campus-phase-one.png` — supplied first-phase concept
-- `assets/campus-final-vision.png` — supplied long-term campus concept
+## Included campus visuals
+The `images` folder contains six image files used directly by the website: mosque/islamic learning centre, academic campus, digital skills lab, library/research centre, multipurpose hall and aerial campus view. No separate assets folder upload is needed beyond uploading this folder.
 
-## Preview locally
-Open `index.html` in a modern browser. For the best experience, use a local server or GitHub Pages.
-
-## Publish on GitHub Pages
-1. Create a repository on GitHub.
-2. Upload the contents of this folder (not the ZIP itself).
-3. In the repository, open **Settings → Pages**.
-4. Choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-
-## Important notes
-- This is a presentation website, not a verified funding prospectus.
-- Campus imagery is conceptual and must not be presented as an already-built campus.
-- The ₹5 crore amount and land acquisition are proposed targets; funding is not represented as secured.
-- Update the placeholder contact email in `index.html` before public launch.
-- Google Fonts require an internet connection; system fallback fonts are included.
+The images are illustrative architectural concepts, not claims that the facilities are already built. The website uses external Google Fonts; if unavailable, it falls back to system fonts.
